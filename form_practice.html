@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>AnalogSea</title>
-  <link rel="stylesheet" type="text/css" href="form_practice.css">
+    <title>AnalogSea</title>
+    <link rel="stylesheet" type="text/css" href="form_practice.css">
 </head>
+
 <body>
-  <img class="logo" src="logo.png" alt="AnalogSea logo">
-  <form class="sign-up" action="/signup/" method="post">
-    <h1>Sign Up</h1>
-    <fieldset name="contact-info">
-      <label for="user-email">Email</label>
-        <input placeholder="foo@bar.com" type="email" name="user-email" id="user-email"/>
-      <label for="password">Password</label>
-        <input placeholder="123PasswOrd" type="pasword" name="user-password" id="user-password"/>
-    <button type="submit">Sign Up</button>
-    <p><a href="/forgot_password/new">Forgot password?</a></p>
-  </form>
-  <div class="footer">
-    <p>Already have an account? <a href="/login">Log In</a></p>
-  </div>
+    <img class="logo" src="logo.png" alt="AnalogSea logo">
+    <form class="sign-up" action="/signup/" method="post">
+        <legend>Sign Up</legend>
+        <label for="user-email">Email</label>
+        <input placeholder="foo@bar.com" type="email" name="user-email" id="user-email" />
+        <label for="password">Password</label>
+        <input placeholder="123PasswOrd" type="password" name="user-password" id="user-password" />
+        <input type="submit" value="Sign Up">
+        <p><a href="/forgot_password/new">Forgot password?</a></p>
+    </form>
+    <div class="footer">
+        <p>Already have an account? <a href="/login">Log In</a></p>
+    </div>
 </body>
+
 </html>

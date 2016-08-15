@@ -21,16 +21,15 @@ body * {
   background: white;
   margin: 0 auto;
 }
-h1{
+legend{
   text-align: center;
   font-size: 30px;
-  font-weight: 250;
   color: #565656;
   margin: 0 auto 45px;
 }
 input[type="email"],
 input[type="password"],
-button[type="submit"]{
+input[type="submit"]{
   width: 320px;
   border: 2px solid gray;
   padding: 15px;
@@ -39,7 +38,14 @@ button[type="submit"]{
   text-align: left;
   height: auto;
 }
-button[type="submit"]{
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="submit"]:focus{
+  border-color: #e7e7e7;
+  box-shadow: none;
+}
+
+input[type="submit"]{
   color: white;
   background: #15cd72;
   border: 0;
@@ -48,8 +54,10 @@ button[type="submit"]{
   height: auto;
 
 }
-button:hover[type="submit"]{
+input:hover[type="submit"]{
   background-color: #0cb863;
+  cursor: pointer;
+
 
 }
 .sign-up p {
